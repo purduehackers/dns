@@ -6,6 +6,7 @@ on:
     paths:
       - "zones/**"
       - "dns.yaml"
+  workflow_dispatch:
 
 jobs:
   plan:
