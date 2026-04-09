@@ -2,6 +2,4 @@ import { VercelConfig } from "@vercel/config/v1";
 
 export const config: VercelConfig = {
   bunVersion: "1.x",
-  buildCommand: "bun run web:build",
-  outputDirectory: "dist",
 };

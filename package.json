@@ -4,24 +4,25 @@
   "type": "module",
   "module": "index.ts",
   "scripts": {
-    "dev": "bun run src/index.ts",
-    "validate": "bun run src/index.ts validate",
-    "plan": "bun run src/index.ts plan",
-    "apply": "bun run src/index.ts apply",
-    "pull": "bun run src/index.ts pull",
+    "dev": "nitro dev",
+    "build": "nitro build",
     "lint": "oxlint --type-aware",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "coverage": "bun test --coverage",
-    "web:build": "rolldown -c rolldown.config.ts",
-    "web:dev": "bun --hot src/web/index.tsx",
-    "web": "bun run web:build && bun dist/index.js"
+    "cli:validate": "bun run src/index.ts validate",
+    "cli:plan": "bun run src/index.ts plan",
+    "cli:apply": "bun run src/index.ts apply",
+    "cli:pull": "bun run src/index.ts pull"
   },
   "dependencies": {
     "dns": ".",
     "hono": "^4.12.12",
-    "sade": "^1.8.1"
+    "nitro": "^3.0.260311-beta",
+    "rollup": "^4.60.1",
+    "sade": "^1.8.1",
+    "yaml": "^2.8.3"
   },
   "devDependencies": {
     "@factory/eslint-plugin": "^0.1.0",
@@ -31,8 +32,7 @@
     "oxclippy": "^0.2.0",
     "oxfmt": "^0.44.0",
     "oxlint": "^1.59.0",
-    "oxlint-tsgolint": "^0.20.0",
-    "rolldown": "^1.0.0-rc.15"
+    "oxlint-tsgolint": "^0.20.0"
   },
   "peerDependencies": {
     "typescript": "^5"
