@@ -14,24 +14,25 @@
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "coverage": "bun test --coverage",
-    "web": "bun --hot src/web/index.ts"
+    "web:build": "rolldown -c rolldown.config.ts",
+    "web:dev": "bun --hot src/web/index.tsx",
+    "web": "bun run web:build && bun dist/index.js"
   },
   "dependencies": {
     "dns": ".",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "hono": "^4.12.12",
     "sade": "^1.8.1"
   },
   "devDependencies": {
     "@factory/eslint-plugin": "^0.1.0",
     "@types/bun": "latest",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
+    "@vercel/config": "^0.1.0",
     "eslint": "^10.2.0",
     "oxclippy": "^0.2.0",
     "oxfmt": "^0.44.0",
     "oxlint": "^1.59.0",
-    "oxlint-tsgolint": "^0.20.0"
+    "oxlint-tsgolint": "^0.20.0",
+    "rolldown": "^1.0.0-rc.15"
   },
   "peerDependencies": {
     "typescript": "^5"
