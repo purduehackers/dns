@@ -68,7 +68,11 @@ function render() {
 
   if (total > 0 && count === total) {
     root.append(
-      h("p", { class: "congrats" }, "You explored all " + total + " Purdue Hackers websites!"),
+      h(
+        "p",
+        { class: "congrats" },
+        "You explored all " + total + " Purdue Hackers websites! Wow you're the coolest B)",
+      ),
     );
   }
 
