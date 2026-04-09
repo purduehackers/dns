@@ -1,0 +1,8 @@
+[test]
+coveragePathIgnorePatterns = [
+  "src/enums.ts",
+  "src/errors.ts",
+  "src/types.ts",
+  "src/util/logger.ts",
+  "src/cli/*.ts",
+]

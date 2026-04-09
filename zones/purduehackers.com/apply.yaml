@@ -1,0 +1,7 @@
+records:
+  - type: A
+    value: 204.10.79.225
+    ttl: 1
+  - type: AAAA
+    value: "2a09:8280:1::f:61d3"
+    ttl: 1

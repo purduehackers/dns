@@ -1,0 +1,4 @@
+records:
+  - type: CNAME
+    value: cname.vercel-dns.com
+    ttl: 3600

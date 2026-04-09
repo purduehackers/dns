@@ -1,0 +1,4 @@
+records:
+  - type: CNAME
+    value: p2p-workshop-signaling.fly.dev
+    ttl: 1

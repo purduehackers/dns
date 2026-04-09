@@ -1,0 +1,6 @@
+provider: cloudflare
+ttl: 3600
+
+records:
+  - type: A
+    value: 76.76.21.21

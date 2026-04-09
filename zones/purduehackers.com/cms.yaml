@@ -1,0 +1,6 @@
+records:
+  - type: AAAA
+    value: "100::"
+    ttl: 1
+    proxied: true
+    comment: Managed by Cloudflare Workers

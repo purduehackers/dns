@@ -1,0 +1,71 @@
+records:
+  - type: TXT
+    value: '"vc-domain-verify=qr.purduehackers.com,02e74e81a1f5d0c58e03,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=dsai.purduehackers.com,7ec4432f8f90cf2cb62e,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=bento.purduehackers.com,77f4a591dc364c677da4,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=id.purduehackers.com,bb967f58789d9ea93c79,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=pdb.purduehackers.com,c2a96bfb932039bc0c26,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=ships.purduehackers.com,341e08db578f0de2fe4a,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=docs.purduehackers.com,ca1ca71c56a23c817cd9,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=evergreen.purduehackers.com,e74f9854b9d497cceaed,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=ask.purduehackers.com,82340c853214cbd82ccf,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=sign.purduehackers.com,fd78b22fa92278f5c238,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=badges.purduehackers.com,746dfaa6fdafeaa7bcd0,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=merch.purduehackers.com,deb356c19c10d3e2e026,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=old.night.purduehackers.com,6586b7d1df78bb107c8e,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=night.purduehackers.com,b5abed065bb1b2a0ac08,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=creaturas.purduehackers.com,eef0f8390dad45b75417,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=drops.purduehackers.com,587d2ec8f3b794c84957,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=shelter.purduehackers.com,9211b9d7a042a4f83d8c,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=wack.purduehackers.com,2f6158e1e5a4472134d5,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=grants.purduehackers.com,e16b4fddb6d08bb4b255,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=commitoverflow.purduehackers.com,7c88358721591fe52b5f,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=commit.purduehackers.com,4eac75701710cc30f05d,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=v2.purduehackers.com,d64d89f10dca5620c633,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=www.purduehackers.com,1b86dab3ad0830907a12,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=purduehackers.com,868e46376634a0d698d7,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=notion.purduehackers.com,3337575b612dc951b44f,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=spill.purduehackers.com,f9eb07d08566abb2973a,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=forest.purduehackers.com,904c239c98b911b1aaec,dc"'
+    ttl: 3600
+  - type: TXT
+    value: '"vc-domain-verify=tictactoe.purduehackers.com,bfe5b9a99d8e724b8978,dc"'
+    ttl: 3600
+  - type: TXT
+    value: '"vc-domain-verify=fizzynight.purduehackers.com,8627c0253c6631da5435"'
+    ttl: 1
+  - type: TXT
+    value: '"vc-domain-verify=scribe.purduehackers.com,18d8e0a94fb082b3c407"'
+    ttl: 1
+  - type: TXT
+    value: '"vc-domain-verify=dash.purduehackers.com,c058052132ab3a45e87b"'
+    ttl: 1
+  - type: TXT
+    value: '"vc-domain-verify=id-auth-example.purduehackers.com,60c4889821f2e6762ddb"'
+    ttl: 1

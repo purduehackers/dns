@@ -1,0 +1,4 @@
+records:
+  - type: CNAME
+    value: purduehackers.github.io
+    proxied: true

@@ -1,0 +1,4 @@
+records:
+  - type: TXT
+    value: '"did=did:plc:wjzmjskeqaxwb6uaquxmfcvr"'
+    ttl: 1

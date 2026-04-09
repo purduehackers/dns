@@ -1,0 +1,8 @@
+settings:
+  zones_dir: zones
+  delete_threshold: 0.33
+  lenient: false
+
+providers:
+  cloudflare:
+    type: cloudflare

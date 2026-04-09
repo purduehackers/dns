@@ -1,0 +1,4 @@
+records:
+  - type: CNAME
+    value: vulcan.moe
+    ttl: 1

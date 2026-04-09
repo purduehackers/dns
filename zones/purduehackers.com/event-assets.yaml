@@ -1,0 +1,6 @@
+records:
+  - type: CNAME
+    value: public.r2.dev
+    ttl: 1
+    proxied: true
+    comment: Managed by Cloudflare R2
