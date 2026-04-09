@@ -1,5 +1,5 @@
 import { defineConfig } from "rolldown";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 
 export default defineConfig({
@@ -12,20 +12,31 @@ export default defineConfig({
   external: [/^hono/, /^node:/, "bun"],
   plugins: [
     {
-      name: "text-import",
+      name: "zone-files",
+      resolveId(source) {
+        if (source === "zone-files") return { id: "zone-files", external: false };
+      },
+      load(id) {
+        if (id !== "zone-files") return;
+        const dir = "zones/purduehackers.com";
+        const entries: Record<string, string> = {};
+        for (const f of readdirSync(dir).filter((f) => f.endsWith(".yaml"))) {
+          entries[f] = readFileSync(`${dir}/${f}`, "utf-8");
+        }
+        return { code: `export default ${JSON.stringify(entries)};`, moduleType: "js" };
+      },
+    },
+    {
+      name: "text-files",
       resolveId(source, importer) {
         if (importer && (source.endsWith(".css") || source.endsWith(".js"))) {
-          const dir = dirname(importer);
-          const resolved = resolve(dir, source);
-          return { id: resolved + "?text", external: false };
+          return { id: resolve(dirname(importer), source) + "?text", external: false };
         }
       },
       load(id) {
-        if (id.endsWith("?text")) {
-          const filePath = id.replace(/\?text$/, "");
-          const content = readFileSync(filePath, "utf-8");
-          return { code: `export default ${JSON.stringify(content)};`, moduleType: "js" };
-        }
+        if (!id.endsWith("?text")) return;
+        const content = readFileSync(id.replace(/\?text$/, ""), "utf-8");
+        return { code: `export default ${JSON.stringify(content)};`, moduleType: "js" };
       },
     },
   ],
