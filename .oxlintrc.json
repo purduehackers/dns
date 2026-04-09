@@ -19,8 +19,8 @@
     "@factory/no-log-exception-with-throw": "error",
     "@factory/filename-match-export": "off",
     "@factory/restrict-tsx-components": "error",
-    "@factory/no-dynamic-styled-components": "error",
-    "@factory/no-plain-html-text-elements": "error",
+    "@factory/no-dynamic-styled-components": "off",
+    "@factory/no-plain-html-text-elements": "off",
     "@factory/no-use-effect-in-hooks": "error",
     "@factory/jest-mock-absolute-paths": "off",
     "@factory/jest-mock-require-actual": "off",
@@ -97,5 +97,5 @@
     "builtin": true
   },
   "globals": {},
-  "ignorePatterns": ["node_modules", "dist", "coverage", "vercel.ts"]
+  "ignorePatterns": ["node_modules", "dist", "coverage"]
 }

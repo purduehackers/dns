@@ -2,3 +2,5 @@ records:
   - type: TXT
     value: '"did=did:plc:wjzmjskeqaxwb6uaquxmfcvr"'
     ttl: 1
+
+show_on_web: false

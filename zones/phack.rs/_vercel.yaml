@@ -5,3 +5,5 @@ records:
     value: '"vc-domain-verify=www.phack.rs,24698326ce64e7515ff1,dc"'
   - type: TXT
     value: '"vc-domain-verify=phack.rs,76de4396c16993951e20,dc"'
+
+show_on_web: false

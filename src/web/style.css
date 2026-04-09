@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #111;
+  padding: 3rem 2rem;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 32px;
+}
+
+.description a {
+  color: #888;
+}
+
+.description a:hover {
+  color: #111;
+}
+
+.congrats {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 32px;
+}
+
+.zones {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.zone-domain {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.visited-count {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ccc;
+  margin-left: 8px;
+}
+
+.subdomains {
+  padding-left: 20px;
+  border-left: 2px solid #eee;
+}
+
+.subdomain {
+  padding: 2px 0 2px 12px;
+}
+
+.subdomain a {
+  font-size: 16px;
+  color: #555;
+  text-decoration: underline;
+}
+
+.subdomain a:hover {
+  color: #111;
+}
+
+.checkmark {
+  font-size: 14px;
+  color: #ccc;
+  margin-left: 6px;
+}

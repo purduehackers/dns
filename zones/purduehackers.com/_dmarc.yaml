@@ -2,3 +2,5 @@ records:
   - type: TXT
     value: '"v=DMARC1; p=quarantine; rua=mailto:7a49eb9d22e14e688807e2f115cefaef@dmarc-reports.cloudflare.net;"'
     ttl: 1
+
+show_on_web: false

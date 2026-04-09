@@ -10,6 +10,7 @@ export interface DnsRecord {
   weight?: number;
   port?: number;
   comment?: string;
+  show_on_web?: boolean;
 }
 
 export interface DnsProvider {

@@ -27,6 +27,7 @@ interface RawZoneConfig {
 
 interface RawSubdomainFile {
   records?: RawRecord[];
+  show_on_web?: boolean;
 }
 
 function normalizeValues(raw: RawRecord): string[] {
@@ -93,6 +94,10 @@ export function parseSubdomainFile(yaml: string, name: string, defaultTtl: numbe
     for (const entry of raw.records) {
       records.push(...toRecords(name, entry, defaultTtl));
     }
+  }
+
+  if (raw?.show_on_web !== undefined) {
+    for (const r of records) r.show_on_web = raw.show_on_web;
   }
 
   return records;
