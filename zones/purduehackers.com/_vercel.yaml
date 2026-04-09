@@ -69,5 +69,8 @@ records:
   - type: TXT
     value: '"vc-domain-verify=id-auth-example.purduehackers.com,60c4889821f2e6762ddb"'
     ttl: 1
+  - type: TXT
+    value: '"vc-domain-verify=map.purduehackers.com,7960ac80359d297682f7"'
+    ttl: 1
 
 show_on_web: false
