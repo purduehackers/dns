@@ -2,5 +2,3 @@ records:
   - type: TXT
     value: '"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ3pFhqaMbaEKq9dsc58e3Ec69zYjaPeWycYuGq46kJ/Q5uEBwEz4mZieI2SeyJgBSUsaEvdRvfRE9yqumhUdhIH1UvoxfwdZx/4EQOsnbLZdUhlA3CvGd09hD+T7AQFOz6UMbN6LkELT98UdPWj7vQNtltmt3g3oaJBLkK2NLYQIDAQAB"'
     ttl: 3600
-
-show_on_web: false

@@ -5,4 +5,4 @@ records:
   - type: A
     value: 185.199.108.153
   - type: AAAA
-    value: "2606:50c0:8000::153"
+    value: '2606:50c0:8000::153'

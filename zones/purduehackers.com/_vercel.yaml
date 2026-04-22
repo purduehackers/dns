@@ -1,5 +1,14 @@
 records:
   - type: TXT
+    value: '"vc-domain-verify=cms.purduehackers.com,83a9bc9888e3b00f0c8c,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=passports.purduehackers.com,c79134d0771a241dde28,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=wack.purduehackers.com,99a102048b65ae75d357,dc"'
+  - type: TXT
+    value: '"vc-domain-verify=map.purduehackers.com,7960ac80359d297682f7"'
+    ttl: 1
+  - type: TXT
     value: '"vc-domain-verify=qr.purduehackers.com,02e74e81a1f5d0c58e03,dc"'
   - type: TXT
     value: '"vc-domain-verify=dsai.purduehackers.com,7ec4432f8f90cf2cb62e,dc"'
@@ -69,8 +78,3 @@ records:
   - type: TXT
     value: '"vc-domain-verify=id-auth-example.purduehackers.com,60c4889821f2e6762ddb"'
     ttl: 1
-  - type: TXT
-    value: '"vc-domain-verify=map.purduehackers.com,7960ac80359d297682f7"'
-    ttl: 1
-
-show_on_web: false

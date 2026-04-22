@@ -4,5 +4,3 @@ records:
     ttl: 1
     proxied: true
     comment: Managed by Cloudflare R2
-
-show_on_web: false
